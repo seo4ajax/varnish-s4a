@@ -4,7 +4,7 @@
 
 1. Install the Varnish Cache module `vmod-dynamic` from here https://github.com/nigoroll/libvmod-dynamic
 2. Copy the [`s4a.vcl`](https://github.com/seo4ajax/varnish-s4a/blob/main/s4a.vcl) file from this repository into the configuration directory of Varnish (e.g. `/etc/varnish/`)
-3. Replace `<site token in SEO4Ajax>` with the site token in SEO4Ajax (e.g. `f594d3367b818ecefe28e9caba24fe16`) in `s4a.vcl`
+3. Open the `s4a.vcl` file and replace `<site token in SEO4Ajax>` with the site token in SEO4Ajax (e.g. `f594d3367b818ecefe28e9caba24fe16`)
 4. Add `include "s4a.vcl";` in the configuration file of Varnish Cache (e.g. `/etc/varnish/default.vcl`)
 5. Restart Varnish Cache
 
