@@ -1,4 +1,4 @@
-`varnish-s4a` is a Varnish 6+ configuration for serving pre-rendered pages using SEO4Ajax.com.
+`varnish-s4a` is a Varnish 6+ configuration for serving pre-rendered pages using seo4ajax.com.
 
 # Install
 
