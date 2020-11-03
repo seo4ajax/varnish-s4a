@@ -1,6 +1,6 @@
 `varnish-s4a` is a Varnish 6+ configuration for serving pre-rendered pages using [seo4ajax.com](https://www.seo4ajax.com).
 
-# Install
+# Installation
 
 1. Install `vmod-dynamic` from here https://github.com/nigoroll/libvmod-dynamic
 2. Copy the `s4a.vcl` file from this repository into the configuration directory of Varnish (e.g. `/etc/varnish/`)
