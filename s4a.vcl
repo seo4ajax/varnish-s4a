@@ -1,4 +1,3 @@
-# 
 # MIT License
 # 
 # Copyright (c) 2020 Capsule Code
@@ -20,8 +19,16 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-# 
-# Add the support of SEO4Ajax in Varnish
+
+# Description:
+# Varnish Cache 6+ configuration for serving pre-rendered pages using seo4ajax.com
+#
+# Installation:
+# 1. Install the Varnish Cache module vmod-dynamic from here https://github.com/nigoroll/libvmod-dynamic#installation
+# 2. Copy this file into the configuration directory of Varnish (e.g. /etc/varnish/)
+# 3. Open the s4a.vcl file and replace <site token in SEO4Ajax> with the site token in SEO4Ajax (e.g. f594d3367b818ecefe28e9caba24fe16)
+# 4. Add include "s4a.vcl"; in the configuration file of Varnish Cache (e.g. /etc/varnish/default.vcl)
+# 5. Restart Varnish Cache
 
 vcl 4.1;
 
